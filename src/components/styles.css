@@ -1,0 +1,37 @@
+/* styles.css */
+.player-card {
+  width: 250px;                /* card width */
+  padding: 20px;               /* inner spacing */
+  margin: 10px;                /* spacing between cards */
+  border: 1px solid #ddd;      /* light border */
+  border-radius: 12px;         /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* subtle shadow */
+  text-align: center;          /* center all text */
+  background-color: #fff;      /* white background */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.player-card img {
+  width: 120px;                /* image size */
+  height: 120px;
+  object-fit: cover;           /* cover without stretching */
+  border-radius: 50%;          /* circle image */
+  margin-bottom: 10px;
+}
+
+.player-card h2 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.player-card .position {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* Hover effect for a little pop */
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}

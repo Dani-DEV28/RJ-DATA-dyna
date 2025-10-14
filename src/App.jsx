@@ -1,7 +1,7 @@
 
 import Header from "./components/Header.jsx";
 import Footer from "./components/Footer.jsx";
-
+import Player from "./components/player.jsx";
 import { players } from "./players";
 
 function App() {

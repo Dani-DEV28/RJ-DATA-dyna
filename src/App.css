@@ -11,5 +11,18 @@
   justify-content: center;     /* center cards horizontally */
   gap: 20px;                   /* space between cards */
   padding: 20px;               /* spacing around container */
-  background-color: #f9f9f9;  /* optional background for contrast */
+  background-color: darkblue;  /* optional background for contrast */
+}
+
+header {
+  background-color: turquoise;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: aqua;
 }

@@ -13,7 +13,7 @@ function App() {
           <Player
             key = {player.name}
             position = {player.position}
-            stats = {player.stats}
+            stats = {player.stat}
           />
         ))}
       </div>

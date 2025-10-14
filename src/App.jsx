@@ -7,17 +7,18 @@ function App() {
 
   return (
     <>
-    <Header></Header>
+      <Header></Header>
       <div className="card-container">
         {players.map((player) => (
           <Player
-            key = {player.name}
-            position = {player.position}
-            stats = {player.stats}
+            key={player.name}
+            position={player.position}
+            stats={player.stats}
           />
         ))}
+
       </div>
-    <Footer></Footer>
+      <Footer></Footer>
     </>
   )
 }

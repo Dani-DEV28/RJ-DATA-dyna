@@ -4,3 +4,12 @@
   padding: 2rem;
   text-align: center;
 }
+
+.card-container {
+  display: flex;               /* enable flex layout */
+  flex-wrap: wrap;             /* allow cards to wrap to next line */
+  justify-content: center;     /* center cards horizontally */
+  gap: 20px;                   /* space between cards */
+  padding: 20px;               /* spacing around container */
+  background-color: #f9f9f9;  /* optional background for contrast */
+}

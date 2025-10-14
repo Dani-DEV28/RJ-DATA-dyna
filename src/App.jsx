@@ -8,13 +8,14 @@ function App() {
 
   return (
     <>
-    <Header></Header>
+      <Header></Header>
       <div className="card-container">
         {players.map((player) => (
           Player(player)
         ))}
+
       </div>
-    <Footer></Footer>
+      <Footer></Footer>
     </>
   )
 }
